@@ -1,4 +1,4 @@
-const fn = require('..')
+import fn from '..'
 
 describe('simple test', () => {
   test('exports a function', () => {

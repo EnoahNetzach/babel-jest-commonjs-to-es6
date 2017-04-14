@@ -1,5 +1,5 @@
 // @flow
 
-const dep = require('./dep')
+import dep from './dep'
 
-module.exports = (check: boolean) => check && dep
+export default (check: boolean) => check && dep
